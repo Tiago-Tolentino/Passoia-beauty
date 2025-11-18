@@ -1,0 +1,47 @@
+.footer{
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    border: solid;
+    justify-content: space-around;
+    align-items: start;
+    .atendimento{
+        display: flex;
+        flex-direction: column;
+        .lista-footer{
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            width: 200px;
+            height: 100px;
+            justify-content: space-around;
+        }
+    }
+
+    .pagamento{
+        border: solid;
+        display: flex;
+        flex-direction: column;
+        .metodos{
+            border: solid saddlebrown;
+            display: flex;
+            width: 400px;
+            height: 100px;
+            align-items: center;
+            img{
+                width: 50%;
+                height: 60%;
+            }
+        }
+    }
+    .redes-sociais{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        div{
+            display: flex;
+            gap: 10px;
+        }
+    }
+}

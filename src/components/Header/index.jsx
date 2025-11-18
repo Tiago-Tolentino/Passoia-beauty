@@ -7,7 +7,7 @@ function Header() {
             {/* logo */}
             <img src={logo} alt="logo marca da pagina" />
             {/* menu interativo */}
-            <ul>
+            <ul className="lista-header">
                 <li>LOOKS</li>
                 <li>LANCAMENTOS</li>
                 <li>NOVIDADE</li>

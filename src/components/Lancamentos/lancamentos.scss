@@ -1,9 +1,11 @@
 .batoes{
+    border: solid;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    height: 55vh;
+    height: 70vh;
+    padding: 15px;
+    gap: 10px;
 
     .descricao{
         padding: 15px;
