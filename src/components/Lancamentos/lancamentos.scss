@@ -1,0 +1,48 @@
+.batoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 55vh;
+
+    .descricao{
+        padding: 15px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 90vw;
+        .fotos_batom{
+            display: flex;
+            flex-direction: column;
+            height: 450px;
+            justify-content: space-around;
+        }
+        .ex_batons{
+            height: 450px;
+            width: 29.1vw;
+            img{
+                width: 100%;
+            }
+        }
+        .detalhes{
+            box-shadow:0 2px 10px rgb(43, 43, 43);
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 30vw;
+            height: 450px;
+            .botoes{
+                display: flex;
+                width: 20vw;
+                justify-content: space-around;
+
+            }
+            .estrelas{
+                width: 10vw;
+            }
+        }
+    }
+    
+}
