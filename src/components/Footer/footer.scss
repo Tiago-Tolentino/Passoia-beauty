@@ -1,13 +1,15 @@
 .footer{
+    border-top: 1px solid rgb(207, 207, 207);
     margin: 20px;
     padding: 15px;
     display: flex;
-    border: solid;
     justify-content: space-around;
     align-items: start;
+    margin-bottom: 100px;
     .atendimento{
         display: flex;
         flex-direction: column;
+        gap: 15px;
         .lista-footer{
             display: flex;
             flex-direction: column;
@@ -15,19 +17,22 @@
             width: 200px;
             height: 100px;
             justify-content: space-around;
+            font-family: "roboto";
+            font-weight: 300;
+            font-size: 20px;
+            gap: 15px;
         }
     }
 
     .pagamento{
-        border: solid;
         display: flex;
         flex-direction: column;
         .metodos{
-            border: solid saddlebrown;
             display: flex;
             width: 400px;
             height: 100px;
             align-items: center;
+            gap: 10px;
             img{
                 width: 50%;
                 height: 60%;

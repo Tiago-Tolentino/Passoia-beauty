@@ -10,10 +10,14 @@ function Looks(){
         <section className="looks">
         <h2>LOOKS E DICAS DE MAQUIAGEM</h2>
         <div className="makes">
-        <img src={labios} alt="labios" />
-        <img src={olhos} alt="olhos" />
-        <img src={rosto} alt="rosto" />
-        <img src={tendencia} alt="tendencia" />
+            <div>
+                <img src={labios} alt="labios" />
+                <img src={olhos} alt="olhos" />
+            </div>
+            <div>
+                <img src={rosto} alt="rosto" />
+                <img src={tendencia} alt="tendencia" />
+            </div>
         </div>
         </section>
 

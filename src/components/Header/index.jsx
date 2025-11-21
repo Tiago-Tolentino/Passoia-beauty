@@ -1,4 +1,8 @@
 import "./header.scss"
+// responsividade
+import "../responsividade/responsividade.scss"
+
+// imagem
 import logo from "../../images/logo passoia.png"
 
 function Header() {

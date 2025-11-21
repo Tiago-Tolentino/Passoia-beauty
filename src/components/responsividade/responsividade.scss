@@ -1,0 +1,12 @@
+@media (max-width: 850px){
+    .batoes{
+        .descricao{
+            flex-direction: column;
+            .fotos_batom{
+                border: solid;
+                flex-direction: row;
+            }
+        }
+        
+    }
+}
