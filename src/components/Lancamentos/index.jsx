@@ -1,4 +1,5 @@
 import "./lancamentos.scss"
+import "./responsividade.scss"
 // hooks sao funcoes especiais do react;
 // useState controla os estados de algo na interface
 import { useState } from "react";
