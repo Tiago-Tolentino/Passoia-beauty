@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Lancamentos from "./components/lancamentos";
+import Lancamentos from "./components/Lancamentos";
 import Banner from "./components/Banner";
 import Looks from "./components/Looks";
 import Novidades from "./components/Novidades";
