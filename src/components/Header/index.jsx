@@ -3,7 +3,7 @@ import "./header.scss"
 import "../responsividade/responsividade.scss"
 
 // imagem
-import logo from "../../images/logo.png"
+import logo from "../../images/Logo.png"
 
 function Header() {
     return (
